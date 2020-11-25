@@ -4,7 +4,7 @@
 # Instrucciones
 
   - Crear en tu disco local capeta nueva vacia
-  - Ir a la terminal y cmabiarte a esa carpeta
+  - Ir a la terminal y cambiarte a esa carpeta
   - Hacer git init
   - Hacer git remote add  URL repo
   - Verificar que estas en la rama master (git status)
