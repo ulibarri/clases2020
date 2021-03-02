@@ -18,16 +18,23 @@ greetMe()
 logGreeting(greetMe)
 //function are first class, pass it as a parameter
 */
-let greet = () =>  {
-    return 'Hello'
+function greet() {
+   console.log('Hello')
 }
-console.log(greet())
+//greet()
 
 let logGretting = (fn) => fn() 
-console.log(logGretting(greet))
+//logGretting(greet)
+/*logGretting(function () {
+    console.log('Hello from the function expression')
+})*/
 
-let greetMe = () => {
-    return 'Hello from the function expression'
-} 
-console.log(greetMe())
-console.log(logGretting(greetMe))
+let greetMe = () => console.log('Hello from the function expression')
+ 
+/*greetMe()
+logGretting(greetMe)*/
+
+let logGreeting1 = (miNombre, miColor)=>{
+    console.log(`Hola ${miNombre} buenos dias! tu color favorito es el ${miColor}`)
+}
+//logGreeting1('Dylan', 'Morado')
