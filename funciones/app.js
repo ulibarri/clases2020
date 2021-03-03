@@ -1,3 +1,4 @@
+/*
 function greet(){
     console.log("Hello")
 };
@@ -19,3 +20,25 @@ greetMe();
 
 logGreeting(greetMe);
 //functions are first class, pass it a parameter
+*/
+
+//función
+let greet = () =>{
+    console.log("Hello")
+};
+//invocación
+greet();
+
+//función
+let logGreeting = (fn) =>{
+    fn();
+};
+//invocación
+logGreeting(greet);
+
+//función
+let greetMe = () =>{
+    console.log("Hello from the function expression");
+};
+//invocación
+greetMe();
