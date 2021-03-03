@@ -1,6 +1,2 @@
-Escribir una aplicación (app.js) para probar chalk
-Crear un archivo que se llame .gitignore y que su contenido sea el siguiente:
-
-Inyectar la dependencia
-Escribir el código de prueba
-Ejecutando el código
+Practica #2
+Escribir una aplicación (app.js) para probar funciones con lo indicado en el [documento](https://docs.google.com/document/d/1oPZY4IsyjxY6W-N97fIN-23n-PmWa2VP_IMKkrYKFXc/edit)
