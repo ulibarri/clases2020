@@ -1,2 +1,2 @@
-Practica #2
-Escribir una aplicación (app.js) para probar funciones con lo indicado en el [documento](https://docs.google.com/document/d/1oPZY4IsyjxY6W-N97fIN-23n-PmWa2VP_IMKkrYKFXc/edit)
+Practica #2 y #3
+Escribir una aplicación (app.js) para probar módulos con lo indicado en el [documento](https://docs.google.com/document/d/1YHobhcyv3EjsKtplzuBHmViONz8acjp09_oAtFw4rkQ/edit) de la practica #2 y el [documento](https://docs.google.com/document/d/1oPZY4IsyjxY6W-N97fIN-23n-PmWa2VP_IMKkrYKFXc/edit) de la practica #3
