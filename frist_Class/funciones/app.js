@@ -66,3 +66,28 @@ logGreeting2(greet2);
 let greetMe2 = () => console.log('Hello from the function expression with refactor');
 greetMe2();
 */
+
+
+//--------------------PRACTICA #3--------------------//
+
+//Funcion de la practica pasada
+function greet(){
+    console.log('Hello');
+}
+let logGreeting = (fn) => fn()
+logGreeting(greet);
+
+//Function expression created on the fly
+let logGreeting3 = (fn) => fn();
+logGreeting3(function(){
+    console.log('Hello from a function created on the fly')
+})
+
+
+//Interpolacion de strings "Clasica"
+let saludo = (nombre, apellido) => console.log('Hola ' + nombre + ' ' + apellido + ' desde la Interpolacion de strings');
+saludo('Jonathan', 'Rodriguez');
+
+//Template String
+let saludo2 = (nombre, apellido) => console.log(`Hola ${nombre} ${apellido} desde Template string`);
+saludo2('Jonathan', 'Rodriguez');
