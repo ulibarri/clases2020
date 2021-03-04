@@ -43,7 +43,14 @@ let logGreeting = (miParametro) => miParametro();
 
 logGreeting(greet);
 */
+
 let logGreeting = (miParametro) => miParametro();
 logGreeting (function (){
     console.log("Hello from a function craeted on the fly");
 });
+
+//Interpolacion de String "clasica"
+let logGreeting1 = (miNombre, miColor) => {
+    console.log("Hola " + miNombre + " Buenos dias! tu color favorito es el " + miColor);
+}
+logGreeting1("Luis","Verde");
