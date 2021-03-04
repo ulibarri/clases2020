@@ -31,5 +31,19 @@ let logGreeting = (funct1) => funct1()
         console.log("Hello from the function expression2")
     })
 */
+/*
 let saludo = (nombre, tratamiento) => console.log("Hola, buen dia " + tratamiento + " " + nombre)
 saludo("Luis", "sr");
+*/
+/*
+function greet() {
+    console.log("Hell0");
+}
+let logGreeting = (miParametro) => miParametro();
+
+logGreeting(greet);
+*/
+let logGreeting = (miParametro) => miParametro();
+logGreeting (function (){
+    console.log("Hello from a function craeted on the fly");
+});
