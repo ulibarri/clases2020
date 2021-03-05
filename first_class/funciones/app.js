@@ -49,6 +49,6 @@ greetMe()
 
 //Interpolación de strings "Clásica"
 let logGreeting1 = (miNombre, miColor) =>{
-    console.log("Hola" + miNombre + " buenos días! Tu color favorito es el " + miColor)
+    console.log(`Hola ${miNombre} buenos días! Tu color favorito es el ${miColor}`)
 }
 logGreeting1("Alfredo", "azul celeste")
