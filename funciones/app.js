@@ -21,10 +21,10 @@ greetMe();
 logGreeting(greetMe);
 //functions are first class, pass it a parameter
 */
-
+/*
 //función
 let greet = () =>{
-    console.log("Hello")
+    console.log("Hello");
 };
 //invocación
 greet();
@@ -42,3 +42,23 @@ let greetMe = () =>{
 };
 //invocación
 greetMe();
+*/
+
+let logGreeting = (miParametro) => miParametro();
+logGreeting(function (){
+    console.log("Hello from a function created on the fly")
+});
+
+//interpolación clásica
+let logGreeting1 = (miNombre, miColor) => {
+    console.log("Hola " + miNombre + " tu color favorito es el " + miColor);
+};
+
+logGreeting1("Carlos", "Azul");
+
+//string interpolation
+let logGreeting2 = (miNombre, miColor) =>{
+    console.log(`Hola ${miNombre} tu color favorito es ${miColor} (utilizando interpolación)`)
+};
+
+logGreeting2("Carlos", "Azul");
