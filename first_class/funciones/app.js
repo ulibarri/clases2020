@@ -2,11 +2,7 @@ function greet(){
     console.log('Hello');
 }
 
-greet();
-
-function logGreeting(fn){
-    fn();
-};
+let logGreeting=(miParametro)=>  miParametro();
 logGreeting(greet);
 let greetMe=function (){
     console.log('Hello from the funcion expression');
