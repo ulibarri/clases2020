@@ -87,10 +87,16 @@ greet1('Ximena');
 
 //Realiza un refactor para la función logGretting(), de acuerdo a las especificación de ES6 para las funciones flecha
 
-let logGreeting1 = (fn) =>{
-    fn() 
-}
+let logGreeting1 = (fn) => fn() 
+
 
 logGreeting1(greet1('Ximena'));
+
+//Realiza un refactor para la función greetMe(), de acuerdo a las especificación de ES6 para las funciones flecha
+
+let greetMe1 = () => console.log('Saludos desde greetMe');
+greetMe1();
+logGreeting1(greetMe1);
+
 
 
