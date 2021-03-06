@@ -1,4 +1,4 @@
-function greet() {
+/*function greet() {
     console.log('Hello');
 }
 
@@ -13,3 +13,5 @@ let logGreeting1 = (miNombre, miColor) => {
     console.log("Hola " + miNombre + " buenos días! Tu color favorito es el " + miColor);
 }
 logGreeting1("Carlos","azul");
+*/
+require('./greet');
