@@ -1,4 +1,4 @@
-let greet = () => console.log('Hello');
+let greet = () => console.log('Hello from greet');
 
 greet(); //invoke
 
@@ -30,3 +30,23 @@ console.log(pow(2));
 
 let pow2 = numero => numero * numero;
 console.log(pow2(4)); 
+
+
+//PRACTICA 3
+
+//function created on the fly
+let onTheFly = (val) => {
+    console.log("Function created on the fly")
+    val ()
+}
+
+onTheFly(function (){
+    console.log("Hello from the function created on the fly")
+});
+
+
+//template strings
+let saludo3 = (name, lastname) => {
+    console.log(`Este es un saludo que enviamos para ${name} de apellido ${lastname}`);
+}
+saludo3("Ivan", "Medrano");
