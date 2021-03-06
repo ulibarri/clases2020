@@ -1,21 +1,14 @@
-function greet() {
-    console.log("Hello");
-}
-
+let greet = () => console.log("Hello");
 greet(); //invoke 
 
 //functions as parameters
-function logGreeting(fn) {
-    fn();
-};
+let logGreeting = fn => fn();
 logGreeting(greet);
 //Pasamos la función greet como parametro
 //e invocandolo con el nombre del argumento fn
 
 //function expression
-let greetMe = function () {
-    console.log("Hello from the function expression");
-}
+let greetMe = () => console.log("Hello from the function expression");
 greetMe();
 
 logGreeting(greetMe);
