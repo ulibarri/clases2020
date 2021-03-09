@@ -1,8 +1,12 @@
 let persona = {
     nombre: "Alfredo",
-    apellido: "Sánchez"
+    apellido: "Sánchez",
+
+    getName: function () {
+        return `${this.nombre} ${this.apellido}`
+
+    }
 }
 
-console.log(persona)
-console.log(persona)
+console.log(persona.getName())
 
