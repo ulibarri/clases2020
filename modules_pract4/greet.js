@@ -1,1 +1,1 @@
-s
+console.log('Hello from the module')
