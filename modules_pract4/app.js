@@ -1,2 +1,2 @@
-require('./greet')
-greet() 
+require('./greet.js')
+greet()  
