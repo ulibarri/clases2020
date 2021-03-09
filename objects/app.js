@@ -6,9 +6,12 @@ let persona = {
     },
     domicilio:{
         calle: 'tulipanes #33',
-        centro:'Bugambilias',
+        colonia:'Bugambilias',
         cp: 28979,
-        municipio: 'villade alvarez'
+        municipio: 'villade alvarez',
+        getDirec:  function(){
+            return `calle: ${this.calle}, colonia: ${this.colonia},  cp: ${this.cp}, ${this.municipio} `
+        }
     }
 }
 console.log(persona)
