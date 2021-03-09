@@ -9,12 +9,13 @@ function logGreeting(fn) {
     fn();
 };*/
 
-
+/*
 function greet() {
     console.log('Hello'); 
 }
 
 greet()
+*/
 
 let logGreeting = (miParametro) => miParametro();
 logGreeting(function () {
