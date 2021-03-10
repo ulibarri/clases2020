@@ -1,2 +1,2 @@
-Practica #2 y #3
-Escribir una aplicación (app.js) para probar módulos con lo indicado en el [documento](https://docs.google.com/document/d/1YHobhcyv3EjsKtplzuBHmViONz8acjp09_oAtFw4rkQ/edit) de la practica #2 y el [documento](https://docs.google.com/document/d/1oPZY4IsyjxY6W-N97fIN-23n-PmWa2VP_IMKkrYKFXc/edit) de la practica #3
+Practica #4
+Escribir una aplicación (app.js) para probar módulos y objetos con lo indicado en el [documento](https://docs.google.com/document/d/1A4aoMc9QA1EZ2qQHlzweN32HdB_CXkwWOoD1TmD4kg0/edit)
