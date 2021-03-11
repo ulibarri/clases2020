@@ -18,3 +18,8 @@ greet3b.greet()
 let greet4 = require('./greet4')
 let myGreet = new(greet4)
 myGreet.greet()
+
+//greet5
+
+let greet5 = require('./greet5')
+greet5.greet()
