@@ -14,3 +14,7 @@ greet3.greeting = 'hello from the app'
 
 let greet3b = require('./greet3')
 greet3b.greet()
+
+let greet4 = require('./greet4')
+let myGreet = new(greet4)
+myGreet.greet()
