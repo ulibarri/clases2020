@@ -1,24 +1,18 @@
 function greet(){
     console.log('Hello');
 }
-greet(); //invoke
+let logGreeting = (miParametro) => miParametro();
+logGreeting(function (){
+    console.log('Hello from a function created on the fly')
+});
 
-function logGreeting(fn){
-    fn();
+//interpolacion de strings 
+let logGreeting1 = (miNombre, miColor) => {
+    console.log(`Hola ${miNombre} buenos dias! Tu color favorito es el ${miColor}`);
 }
-logGreeting(greet);
-//estamos pasando la funcion greet como
-//parámetro e invocandola con el nombre del argumento fn
+logGreeting1("Karla","morado")
 
-//function expression 
-let greetMe = function(){
-    console.log('Hello from the function expression');
-}
-greetMe();
-
-logGreeting(greetMe);
-// functions are the first class, pass it as parameter
-
+/*
 //Arrow functions
 
 //Realiza un refactor para la función greet(), de acuerdo a las especificación de ES6 para las funciones flecha
@@ -32,4 +26,4 @@ logGreeting(greet1);
 //Realiza un refactor para la función greetMe(), de acuerdo a las especificación de ES6 para las funciones flecha
 let greetMe1 = () => console.log('Hello from the function expression');
 greetMe1();
-logGreeting1(greetMe1);
+logGreeting1(greetMe1); */
