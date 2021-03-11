@@ -67,3 +67,19 @@ logGreeting2(greet2);
 
  let greetMe2 = () => console.log("Hello from the function expression ES6");
 greetMe2();   */
+
+
+//PRÁCTICA No.3
+
+
+let logGreeting = (miParametro) => miParametro ();
+logGreeting(function () {
+    console.log ("Hello from a function created on the fly")
+})
+  //INTERPOLACION EN CADENAS -console.log("Hola " + nombre + " " +edad );
+let saludo2 = (nombre, edad ) => console.log("Hola " + nombre + " " +edad );
+saludo2("kenia", "20");
+
+ //TEMPLATE STRING
+let saludo3 = (nombre, edad ) => console.log(`Hola ${nombre} desde un template string ${edad}` );
+saludo3("kenia", "20");
