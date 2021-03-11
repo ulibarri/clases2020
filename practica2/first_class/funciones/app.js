@@ -1,14 +1,14 @@
-function greet() {
+let greet = () => {
     console.log('hello')
 }
 greet()
 
-function logGreeting(fn) {
+let logGreeting = (fn) => {
     fn()
 }
 logGreeting(greet)
 
-let greetMe = function () {
+let greetMe = () => {
     console.log('hello from the function expression')
 }
 greetMe()
