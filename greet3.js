@@ -1,8 +1,8 @@
-function Greetr(){
-    this.greeting = "Hello from the function constructor"
-    this.greet = function (){
-        console.log(this.greeting)
+function Greetr() {
+    this.greeting = "Hello from de function constructor";
+    this.greet = function () {
+        console.log(this.greeting);
     }
 }
 
-module.exports = new Greetr
+module.exports = new Greetr;
