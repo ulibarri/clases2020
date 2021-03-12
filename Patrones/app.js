@@ -13,3 +13,7 @@ greet3.greeting = "Hello from the app"
 
 let greet3b = require('./greet3');
 greet3b.greet();
+
+const Greet4 = require('./greet4'); //constructor
+let myGreet = new (Greet4);
+myGreet.greet();
