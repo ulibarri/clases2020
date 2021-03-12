@@ -17,3 +17,6 @@ greet3b.greet();
 const Greet4 = require('./greet4'); //constructor
 let myGreet = new (Greet4);
 myGreet.greet();
+
+const greet5 = require('./greet5');
+greet5.greet();
