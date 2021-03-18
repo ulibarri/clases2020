@@ -1,5 +1,5 @@
-## Practica #6
-### Eventos y emisor de eventos
+# Practica #6
+## Eventos y emisor de eventos
 Creacion de eventos y un emisor de eventos 
 
 Evento: algo que ha sucedido en nuestra app y que necesita una respuesta de nuestra parte.
