@@ -53,3 +53,4 @@ funArray.push(()=>{
 funArray.forEach((item)=>{
     item();
 })
+//recorre el arreglo mostrando los elementos
