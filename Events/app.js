@@ -36,5 +36,20 @@ myArray.push(function(){
 })
 console.log(myArray)
 //Se guardaron variables de diferente tipo desde objetos hasta funciones
-console.log(myArray[2]['mouseOver'])
+myArray[2]['mouseOver']()
 //incocamos la funcion mouseover
+myArray[3]()
+//imprimer lo que esta adentro de la funcion
+let funArray = []
+funArray.push(()=>{
+    console.log('funcion numero uno')
+})
+funArray.push(()=>{
+    console.log('funcion numero dos')
+})
+funArray.push(()=>{
+    console.log('funcion numero tres')
+})
+funArray.forEach((item)=>{
+    item();
+})
