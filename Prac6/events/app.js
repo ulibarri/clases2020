@@ -58,3 +58,4 @@ funcArray.forEach((item) => {
     item();
 })
 //Nos arroja los 3 anteriores console.log
+
