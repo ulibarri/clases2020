@@ -22,3 +22,17 @@ myKey = 'keypress'
 console.log(obj[myKey]())
 myKey = 'mouseOver'
 console.log(obj[myKey]())
+
+// Creamos un array
+let array = []
+
+// Con la funcion push, agregamos elementos al array de diferente tipo
+array.push(4)
+array.push('rtx')
+array.push(obj)
+array.push(function(){
+    console.log('alo polisia')
+})
+
+// Al mostrar el array en la consola, nos imprime su contenido
+console.log(array)
