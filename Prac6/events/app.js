@@ -32,3 +32,29 @@ myArray.push(function () {
     console.log("Hola desde el array");
 })
 console.log(myArray);
+//Lanza ordenadamente lo que ya veniamos haciendo
+
+console.log(myArray[2].nombre);
+//Nos arroja el nombre del Obj del Array
+
+console.log(myArray[3]);
+//Manda a llamar la función anonima
+
+let funcArray = [];
+
+funcArray.push(() => {
+    console.log("Function 1");
+});
+
+funcArray.push(() => {
+    console.log("Function 2");
+});
+
+funcArray.push(() => {
+    console.log("Function 3");
+});
+
+funcArray.forEach((item) => {
+    item();
+})
+//Nos arroja los 3 anteriores console.log
