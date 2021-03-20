@@ -21,3 +21,14 @@ myKey = 'keypress';
 console.log(obj[myKey]());
 myKey = 'mouseOver';
 console.log(obj[myKey]());
+//Detecta el presionado de tecla y el puntero cuando el mouse está arriba
+
+let myArray = [];
+
+myArray.push(4);
+myArray.push('una cadena');
+myArray.push(obj);
+myArray.push(function () {
+    console.log("Hola desde el array");
+})
+console.log(myArray);
