@@ -36,3 +36,25 @@ array.push(function(){
 
 // Al mostrar el array en la consola, nos imprime su contenido
 console.log(array)
+
+// Mostramos la posicion 3 del array
+console.log(array[3])
+
+// Se crea un array
+let fArray = []
+
+// Le agregamos funciones
+fArray.push (() => {
+    console.log('function 1')
+})
+fArray.push(() => {
+    console.log('function 2')
+})
+fArray.push(() => {
+    console.log('function 3')
+})
+
+// Crea un pequeño ciclo para mostrar cada elemento del array
+fArray.forEach((item) => {
+    item()
+})
