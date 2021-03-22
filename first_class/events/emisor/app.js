@@ -1,5 +1,8 @@
-const Emitter = require('./emitter');
-
+// const Emitter = require('./emitter');
+const Emitter = require('events');
+// ! Explicacion: La clase Emitter que dasarrollamos cumple con la misma interfaz
+// ! que el emitter la dependencia `events` de Node, por lo que el código no se ve
+// ! alterado al cambiar de dependencia.
 const emtr = new Emitter();
 emtr.on('greet', () => console.log('Somewhere,someone say hello'));
 emtr.on('greet', () => console.log('A gretting occurred!'));
