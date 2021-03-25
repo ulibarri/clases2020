@@ -1,2 +1,2 @@
-Practica #6
-Escribir una aplicación (app.js) para probar módulos, objetos y emisores con lo indicado en el [documento](https://docs.google.com/document/d/1zA8dGpsSW0A6cX9qlVxVwRSYzRMsUaPn-MkzEinJA3Y/edit).
+Practica #7
+Escribir una aplicación (app.js) para probar módulos, objetos y emisores con lo indicado en el [documento](https://docs.google.com/document/d/1X5Tul8h68DZp6WP1_W7DjEzkVSaX6L0nVD8LbOkoMNk/edit).
