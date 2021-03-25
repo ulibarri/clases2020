@@ -1,4 +1,4 @@
-let Emitter = require('./emitter') //Se inyecta la dependencia
+let Emitter = require('events') //Con este cambio al ejecutar el codigo muestra la funcion emitter pero con mas detalle
 
 let emtr = new Emitter() //Se genera la instancia
 
