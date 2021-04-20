@@ -5,6 +5,7 @@
   "repository": "https://github.com/ulibarri/clases2020.git",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "express": "^4.17.1"
   }
 }
