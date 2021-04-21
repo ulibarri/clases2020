@@ -1,7 +1,7 @@
 {
   "name": "clases2020",
   "version": "1.0.0",
-  "description": "Practica #8\r Escribir una aplicación (app.js) para probar el módulo http con lo indicado en el [documento](https://docs.google.com/document/d/1UZ_reah88BAAnrtJB_CxOQXUPcNvR1CgJ7oK_FsOibg/edit).",
+  "description": "Practica #9\r Escribir una aplicación (app.js) para probar el módulo express con lo indicado en el documento.).",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
