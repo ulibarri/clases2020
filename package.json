@@ -1,10 +1,11 @@
 {
   "name": "clases2020",
   "version": "1.0.0",
-  "description": "Practica #7\r Escribir una aplicación (app.js) para probar módulos, objetos y emisores con lo indicado en el [documento](https://docs.google.com/document/d/1X5Tul8h68DZp6WP1_W7DjEzkVSaX6L0nVD8LbOkoMNk/edit).",
-  "main": "app.js",
+  "description": "Practica #8\r Escribir una aplicación (app.js) para probar el módulo http con lo indicado en el [documento](https://docs.google.com/document/d/1UZ_reah88BAAnrtJB_CxOQXUPcNvR1CgJ7oK_FsOibg/edit).",
+  "main": "./httpServer/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "iniciar" : "node ./httpServer/app.js"
   },
   "repository": {
     "type": "git",
