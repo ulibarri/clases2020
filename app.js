@@ -1,11 +1,14 @@
-var http = require('http');
+const express = require('express');
+const app = express();
+const path = require('path');
 
-http.createServer(function(req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'})
-    res.end('Hello world\nMy name is Ivan')
-}).listen(1337, 'localhost')
-
-/* 
-Al acceder a localhost:1337 encontramos lo que hemos escritor en la linea 5.
-Si entramos a los headers encontraremos datos básicos de de los requests y responses
-*/
+app.listen(3000);
+app.get('/', (req, res) => {
+    res.send('Hello world, this is the root route');
+});
+app.get('/uno', (req, res) => {
+    res.send('Hello world, from route uno');
+});
+app.get('/prueba', (req, res) => {
+    res.sendFile(path.join(__dirname + '/html/prueba.html'));
+});

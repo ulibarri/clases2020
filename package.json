@@ -1,7 +1,7 @@
 {
   "name": "clases2020",
   "version": "1.0.0",
-  "description": "Practica #7\r Escribir una aplicación (app.js) para probar módulos, objetos y emisores con lo indicado en el [documento](https://docs.google.com/document/d/1X5Tul8h68DZp6WP1_W7DjEzkVSaX6L0nVD8LbOkoMNk/edit).",
+  "description": "Practica #8\r Escribir una aplicación (app.js) para probar el módulo http con lo indicado en el [documento](https://docs.google.com/document/d/1UZ_reah88BAAnrtJB_CxOQXUPcNvR1CgJ7oK_FsOibg/edit).",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/ulibarri/clases2020.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ulibarri/clases2020#readme",
   "dependencies": {
-    "http": "0.0.1-security"
+    "express": "^4.17.1",
+    "path": "^0.12.7"
   }
 }
