@@ -1,4 +1,4 @@
-const express = require('express')
+/*const express = require('express')
 const app = express()
 
 app.get('/',(req, res)=>{
@@ -12,4 +12,4 @@ app.get('/uno', (req,res)=>{
 
 app.get('/prueba', (req, res)=>{
     res.send('Hello, frome route Prueba ')
-})
+})*/
