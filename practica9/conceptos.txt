@@ -1,0 +1,37 @@
+¿Qué es un middleware?
+Middleware es software que se sitúa entre un sistema operativo y las aplicaciones que se ejecutan en él. Básicamente, funciona como una capa de traducción oculta para permitir la comunicación y la administración de datos en aplicaciones distribuidas. 
+A veces, se le denomina “plumbing” (tuberías), porque conecta dos aplicaciones para que se puedan pasar fácilmente datos y bases de datos por una “canalización”. El uso de middleware permite a los usuarios hacer solicitudes como el envío de formularios en 
+un explorador web o permitir que un servidor web devuelva páginas web dinámicas en función del perfil de un usuario.
+
+¿Cuál es el significado del término “MEAN stack” ?
+El término “MEAN Stack” se define como un conjunto de tecnologías basadas en JavaScript, recopiladas que se utilizan para desarrollar los sitios web complejos y las apps web (progresivas o receptivas). Para simplificar, MEAN se explica como un framework de
+ JavaScript de full-stack, que simplifica y acelera el desarrollo de las apps y web. Siendo uno de los stack tecnológico más popular. 
+MongoDB, Express.JS, Angular y Node.JS son grupos de tecnologías que forman una combinación de la tecnología MEAN Stack en apps móviles y web. En los últimos tiempos, algunos de los sitios web complejos y apps web (responsive) están impulsados por MEAN Stack.
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+- Ejecutar cualquier codigo.
+- Realizar cambios en la solicitud y los objetos de respuesta.
+- Finalizar el ciclo de solicitud/respuestas.
+- Invocar la siguiente función de middleware en la pila.
+
+¿Qué es una ruta en express?
+Express.js es un framework para Node.js que sirve para ayudarnos a crear aplicaciones web en menos tiempo ya que nos proporciona funcionalidades como el  enrutamiento, opciones para gestionar sesiones y cookies, y un largo etc…
+Express.js está basado en Connect, que a su vez es un framework basado en http para Node.js. Podemos decir que Connect tiene todas las opciones del módulo http que viene por defecto con Node y le suma funcionalidades. A su vez, Express hace lo mismo con Connect,
+ con lo que tenemos un framework ligero, rápido y muy útil
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+Puede proporcionar varias funciones de devolución de llamada que se comportan como middleware para manejar una solicitud. La única excepción es que estas devoluciones de llamada pueden invocar next('route')para omitir las devoluciones de llamada de ruta restantes. 
+Puede utilizar este mecanismo para imponer condiciones previas en una ruta y luego pasar el control a las rutas posteriores si no hay razón para continuar con la ruta actual.
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+
+GET method route
+    app.get('/', function (req, res) {
+        res.send('GET request to the homepage')
+    })
+
+¿Qué es lo que hace la instrucción res.send?
+Envía una respuesta de varios tipos.
+
+¿Cuál es el motivo por el que express es tan popular?
+Ya que sirve para ayudarnos a crear aplicaciones web en menos tiempo ya que nos proporciona funcionalidades como el  enrutamiento, opciones para gestionar sesiones y cookies, y un largo etc…
+
