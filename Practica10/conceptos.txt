@@ -1,0 +1,47 @@
+¿Qué es un middleware?
+Es un sistema de software que ofrece servicios y funciones comunes para las aplicaciones.
+se encarga de las tareas de gestión de datos, servicios de aplicaciones, mensajería, 
+autenticación y gestión de API.
+
+¿Cuál es el significado del término “MEAN stack” ?
+MEAN Stack (acrónimo para: MongoDB, ExpressJS, AngularJS, NodeJS), es un framework o conjunto 
+de subsistemas de software para el desarrollo de aplicaciones, y páginas web dinámicas, que 
+están basadas, cada una de estas en el popular lenguaje de programación conocido como JavaScript.
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+una aplicación Express es fundamentalmente una serie de llamadas a funciones de middleware.
+Una aplicación Express puede utilizar los siguientes tipos de middleware:
+
+-Middleware de nivel de aplicación
+-Middleware de nivel de direccionador
+-Middleware de manejo de errores
+-Middleware incorporado
+-Middleware de terceros
+
+¿Qué es una ruta en express?
+Direccionamiento hace referencia a la definición de puntos finales de aplicación (URI) 
+y cómo responden a las solicitudes de cliente.
+Las rutas es la forma de declarar URLs para tu aplicación web.
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+HANDLER es la función que se ejecuta cuando se correlaciona la ruta.
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+Un método de ruta se deriva de uno de los métodos HTTP y se adjunta a una instancia de la clase express.
+// GET method route
+app.get('/', function (req, res) {
+  res.send('GET request to the homepage');
+});
+
+¿Qué es lo que hace la instrucción res.send?
+Envía una respuesta de varios tipos.
+
+¿Cuál es el motivo por el que express es tan popular?
+Express es el framework web más popular de Node, y es la librería subyacente para un gran número de otros frameworks web 
+de Node populares. Proporciona mecanismos para:
+
+-Escritura de manejadores de peticiones con diferentes verbos HTTP en diferentes caminos URL (rutas).
+-Integración con motores de renderización de "vistas" para generar respuestas mediante la introducción de datos en plantillas.
+-Establecer ajustes de aplicaciones web como qué puerto usar para conectar, y la localización de las plantillas que se utilizan 
+para renderizar la respuesta.
+-Añadir procesamiento de peticiones "middleware" adicional en cualquier punto dentro de la tubería de manejo de la petición.
