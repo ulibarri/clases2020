@@ -1,0 +1,25 @@
+{
+  "name": "httptest",
+  "version": "1.0.0",
+  "description": "Learning and practicing with http server module",
+  "main": "./httpServer/app.js",
+  "scripts": {
+    "start": "node ./httpServer/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulibarri/clases2020.git"
+  },
+  "keywords": [
+    "http"
+  ],
+  "author": "QuackDuster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulibarri/clases2020/issues"
+  },
+  "homepage": "https://github.com/ulibarri/clases2020#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
