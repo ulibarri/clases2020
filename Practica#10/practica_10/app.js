@@ -1,7 +1,7 @@
 //npm init -y
 //npm i express
 //nmp i nodemon
-//nodemos app.js
+//nodemon app.js
 
 var express = require('express'); //importamos la dependencia
 var app = express(); //declaramos una App de Express
