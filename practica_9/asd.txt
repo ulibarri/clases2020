@@ -1,0 +1,31 @@
+¿Qué es un middleware?
+Las funciones de middleware son funciones que tienen acceso al objeto de solicitud (req), al objeto de respuesta (res) y a la siguiente función de middleware en el ciclo de solicitud/respuestas de la aplicación.
+
+¿Cuál es el significado del término “MEAN stack” ?
+Es el conjunto de tecnologias conformadas por MongoDB, Express, Angular y Node.
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Las funciones de middleware pueden realizar las siguientes tareas:
+
+Ejecutar cualquier código.
+Realizar cambios en la solicitud y los objetos de respuesta.
+Finalizar el ciclo de solicitud/respuestas.
+Invocar la siguiente función de middleware en la pila.
+Si la función de middleware actual no finaliza el ciclo de solicitud/respuestas, debe invocar next() para pasar el control a la siguiente función de middleware. De lo contrario, la solicitud quedará colgada.
+
+¿Qué es una ruta en express?
+    1. - Direccionamiento hace referencia a la definición de puntos finales de aplicación (URI) y cómo responden a las solicitudes de cliente.
+    2. - Las rutas es la forma de declarar URLs para tu aplicación web.
+
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+HANDLER es la función que se ejecuta cuando se correlaciona la ruta.
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+La ruta y un callback.
+
+¿Qué es lo que hace la instrucción res.send?
+Envia una respuesta HTTP.
+
+¿Cuál es el motivo por el que express es tan popular?
+Porque es robusto, rápido, flexible y muy simple.
