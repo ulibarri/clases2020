@@ -1,0 +1,23 @@
+¿Qué es un middleware?
+--El término middleware se refiere a un sistema de software que ofrece servicios y funciones comunes para las aplicaciones. En general, el middleware se encarga de las tareas de gestión de datos, servicios de aplicaciones, mensajería, autenticación y gestión de API.
+
+¿Cuál es el significado del término “MEAN stack” ?
+-- +Mongo,exprees,angular y node
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+--funciona en cualquier codigo, llama a la siguiente middlware que se encuentre en la pila
+
+¿Qué es una ruta en express?
+--Un método de ruta se deriva de uno de los métodos HTTP y se adjunta a una instancia de la clase express.
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+--es un direccionador de rutas, su funcion es la de direccionar peticiones
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+--res(response) and re(request).
+
+¿Qué es lo que hace la instrucción res.send?
+--para poder enviar o responder algo dentro de un servidor local
+
+¿Cuál es el motivo por el que express es tan popular?
+--porque nos facilita el poder usar e implementar funciones en nuestro codigo facilmente	
