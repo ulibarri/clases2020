@@ -1,0 +1,39 @@
+¿Qué es un middleware?
+Es un sistema de software que ofrece servicios y funciones comunes para las aplicaciones,
+encargandose así de las tareas como la gestión de datos, servicios de aplicaciones, mensajería, 
+autenticación y gestión de API, entre otras.
+
+¿Cuál es el significado del término “MEAN stack” ?
+Es un acrónimo formado por las iniciales de las cuatro tecnologías empleadas: MongoDB, Express, Angular y Node.js.
+
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Su objetivo es que no tengamos que empezar desde cero cada vez que queramos crear una aplicación web, 
+ofreciéndonos soporte para las principales necesidades en este tipo de aplicaciones: gestión de peticiones y respuestas, 
+cabeceras, rutas, vistas, etc.
+
+¿Qué es una ruta en express?
+Las rutas hacen referencia a cómo responde una aplicación a una solicitud de cliente en un punto final en concreto, 
+que viene a ser un URI (o una zona de acceso) y un método de soliticitud HTTP (GET,POST,PUT,etc).
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+Los route handler pueden ser una función, una matriz de funciones o combinaciones de las dos.
+Se pueden proporcionar múltiples funciones que devuelvan las llamadas que se comportan como los 
+middleware para manejar una solicitud.
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+Los parámetros de ruta son segmentos URL que se usan para coger los valores especificados en su posición en la URL. 
+Los valores obtenidos se usan con el objeto req.params, con el nombre de la ruta especificada en path así como 
+sus respectivas claves.
+
+¿Qué es lo que hace la instrucción res.send?
+Envía la respuesta establecida.
+
+
+¿Cuál es el motivo por el que express es tan popular?
+Node.js por sí mismo está muy bien para crear la lógica de las aplicaciones, 
+y como dispone de un módulo para el protocolo HTTP es posible crear aplicaciones web con lo que trae por defecto. 
+Sin embargo es complejo, costoso y tenemos que hacer todo el trabajo a bajo nivel nosotros mismos.
+
+Express reduce esa cantidad de trabajo agilizando una gran variedad de procesos básicos, complementando así Node.js
+y creando un entorno de desarrollo más completo y sofisticado.
