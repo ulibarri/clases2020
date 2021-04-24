@@ -8,3 +8,6 @@ app.get('/', function(req, res) {
 })
 
 app.listen(port)
+app.get('/api', function(req, res) {
+    res.json({firstname: 'John', lastname: 'Doe'})
+})
