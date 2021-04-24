@@ -11,3 +11,7 @@ app.listen(port)
 app.get('/api', function(req, res) {
     res.json({firstname: 'John', lastname: 'Doe'})
 })
+
+app.get('/person/:edgar', function(req, res){
+    res.send('<html><head></head><body><h1>Person: ' + req.params.edgar + '</h1></body></html>')
+})
