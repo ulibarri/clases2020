@@ -1,0 +1,8 @@
+¿Qué es un middleware?
+¿Cuál es el significado del término “MEAN stack” ?
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+¿Qué es una ruta en express?
+¿Qué es un “route handler” en express y para qué se utiliza?
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+¿Qué es lo que hace la instrucción res.send?
+¿Cuál es el motivo por el que express es tan popular?
