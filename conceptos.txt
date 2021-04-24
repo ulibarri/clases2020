@@ -1,0 +1,27 @@
+#Conceptos
+##Middleware
+Es software que se sitúa entre un sistema operativo y las aplicaciones que se ejecutan en él. Básicamente, funciona como una capa de traducción oculta para permitir la comunicación y la administración de datos en aplicaciones distribuidas.
+
+##MEAN stack
+Permite crear aplicaciones distribuidas utilizando el mismo lenguaje JavaScript en todas sus fases y capas. A este concepto y las tecnologías que lo posibilitan se les ha bautizado con el nombre de MEAN, acrónimo formado por las iniciales de las cuatro tecnologías principales que entran en juego: MongoDB, Express, Angular y Node.js.
+
+##Caracteristicas Express Route
+-Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles. 
+-API: con miles de métodos de programa de utilidad HTTP y middleware a su disposición, la creación de una API sólida es rápida y sencilla.
+
+##Ruta de Express
+Hace referencia a la definición de puntos finales de aplicación (URI) y cómo responden a las solicitudes de cliente.
+
+##Route Handler
+Puede proporcionar varias funciones de devolución de llamada que se comportan como un middleware para manejar una solicitud. La única excepción es que estas devoluciones de llamada pueden invocar next ('ruta') para evitar las devoluciones de llamada de ruta restantes.
+
+##2 Parametros de la función app.get()
+Permite definir una 'route handler' para realizar una petición de GET a una URL dada.
+-El primer parámetro de app.get() es hacer la llamada a 'path'. El valor path admite varios caracteres especiales que permiten usar un subconjunto de expresiones regulares en cadenas de ruta.
+-Los parámetros de Route son variables escenciales definidas por el nombre del URL. Express analiza la URL, extrae el valor en la sección nombrada y lo almacena en la propiedad req.params.
+
+##Instrucción res.send
+Envía una respuesta de varios tipos. Este método realiza muchas tareas útiles para respuestas simples que no son de transmisión: por ejemplo, asigna automáticamente el campo de encabezado de respuesta HTTP Content-Length (a menos que se haya definido previamente) y proporciona compatibilidad automática con la actualización de caché HEAD y HTTP.
+
+##Popularidad de Express
+ExpressJS. Es un marco NodeJS prediseñado que puede ayudarlo a crear aplicaciones web del lado del servidor de manera más rápida e inteligente. Sencillez, minimalismo, flexibilidad, escalabilidad son algunas de sus características y como está hecho en el propio NodeJS, también heredó su rendimiento.
