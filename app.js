@@ -11,5 +11,5 @@ app.get('/uno', (req, res) => {//route handler
 })
 
 app.get('/prueba', (req, res) => {//route handler
-    res.send('hello world, from test')
+    res.sendFile(path.join(__dirname, '/index.html'))
 })
