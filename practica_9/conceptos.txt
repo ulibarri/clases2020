@@ -1,0 +1,49 @@
+1.- ¿Qué es un middleware?
+Un middleware es un sistema de software que ofrece servicios y funciones comunes para las aplicaciones. Estos se encargan 
+de las tareas de gestión de datos, servicios de aplicaciones, mensajería, autenticación y gestión de API. Ayuda a los 
+desarrolladores a diseñar aplicaciones con mayor eficiencia. Además, actúa como hilo conductor entre las aplicaciones, 
+los datos y los usuarios.
+
+
+2.- ¿Cuál es el significado del término “MEAN stack”?
+“MEAN stack” es el desarrollo full-stack en JavaScript, es decir, es el conjunto de tecnologías necesarias para el 
+desarrollo de todas las capas de una aplicación web con JavaScript. Está compuesto por cuatro de las más importantes 
+tecnologías de la industria: MongoDB, Express, Angular y Node.js.
+
+
+3.- ¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Express es el framework web más popular de Node, y es la librería subyacente para un gran número de otros frameworks 
+web de Node populares. Cuenta con diversas características y funcionalidades:
+    •	Escritura de manejadores de peticiones con diferentes verbos HTTP en diferentes caminos URL (rutas).
+    •	Integración con motores de renderización de "vistas" para generar respuestas mediante la introducción de datos en 
+    plantillas.
+    •	Establecer ajustes de aplicaciones web como qué puerto usar para conectar, y la localización de las plantillas que 
+    se utilizan para renderizar la respuesta.
+    •	Añadir procesamiento de peticiones "middleware" adicional en cualquier punto dentro de la tubería de manejo de la 
+    petición.
+
+
+4.- ¿Qué es una ruta en express?
+Una “ruta” es la forma de declarar URLs para una aplicación web derivada de uno de los métodos HTTP y adjuntada a una 
+instancia de la clase.
+
+
+5.- ¿Qué es un “route handler” en express y para qué se utiliza?
+Los controladores de ruta (o “route handler”) son funciones de middleware, que pueden enviar la respuesta HTTP o pasar 
+la solicitud al siguiente middleware en línea. Pueden definirse en el archivo de la aplicación o cargarse mediante un 
+módulo de nodo.
+
+
+6.- ¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+
+router.get
+authRouter.get()
+
+7.- ¿Qué es lo que hace la instrucción res.send?
+Retorna la respuesta establecida
+
+
+8.- ¿Cuál es el motivo por el que express es tan popular?
+Principalmente se debe a que express es un marco web rápido, sin opiniones y minimalista para node. Express proporciona 
+una amplia gama de funciones para crear aplicaciones web híbridas, de una sola página y de varias páginas. El desarrollo 
+de sitios web y aplicaciones se ha vuelto simple con el marco express
