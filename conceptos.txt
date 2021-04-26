@@ -1,0 +1,45 @@
+¿Qué es un middleware?
+Middleware o lógica de intercambio de información entre aplicaciones, o Agente Intermedio, 
+es un software que asiste a una aplicación para interactuar o comunicarse con otras aplicaciones, 
+o paquetes de programas, redes, hardware o sistemas operativos.
+
+
+¿Cuál es el significado del término “MEAN stack” ?
+El término “MEAN Stack” se define como un conjunto de tecnologías basadas en JavaScript, 
+recopiladas que se utilizan para desarrollar los sitios web complejos y las apps web
+
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona 
+un conjunto sólido de características para las aplicaciones web y móviles.
+
+
+¿Qué es una ruta en express?
+Express es el framework web más popular de Node, y es la librería subyacente para un gran 
+número de otros frameworks web de Node populares.
+
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+Express es el framework web más popular de Node, y es la librería subyacente para un gran 
+número de otros frameworks web de Node populares.
+
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+Permite definir una 'route handler' para realizar una petición de GET a una URL dada.
+-El primer parámetro de app.get() es hacer la llamada a 'path'. El valor path admite varios caracteres especiales 
+que permiten usar un subconjunto de expresiones regulares en cadenas de ruta.
+-Los parámetros de Route son variables escenciales definidas por el nombre del URL. Express analiza la URL, extrae
+el valor en la sección nombrada y lo almacena en la propiedad req.params.
+
+
+¿Qué es lo que hace la instrucción res.send?
+Envía una respuesta de varios tipos. Este método realiza muchas tareas útiles para respuestas simples que no son
+de transmisión: por ejemplo, asigna automáticamente el campo de encabezado de respuesta HTTP Content-Length (a 
+menos que se haya definido previamente) y proporciona compatibilidad automática con la actualización de caché 
+HEAD y HTTP.
+
+
+¿Cuál es el motivo por el que express es tan popular?
+ExpressJS. Es un marco NodeJS prediseñado que puede ayudarlo a crear aplicaciones web del lado del servidor de 
+manera más rápida e inteligente. Sencillez, minimalismo, flexibilidad, escalabilidad son algunas de sus características 
+y como está hecho en el propio NodeJS, también heredó su rendimiento.
