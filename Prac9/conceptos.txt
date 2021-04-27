@@ -1,0 +1,45 @@
+-¿Qué es un middleware?
+El término middleware se refiere a un sistema de software que ofrece servicios y funciones comunes para las aplicaciones.
+En general, el middleware se encarga de las tareas de gestión de datos, servicios de aplicaciones, mensajería, autenticación y gestión de API.
+Ayuda a los desarrolladores a diseñar aplicaciones con mayor eficiencia. 
+Además, actúa como hilo conductor entre las aplicaciones, los datos y los usuarios.
+En el caso de las empresas con entornos de contenedores y multicloud, el middleware puede rentabilizar el desarrollo y la ejecución de aplicaciones a escala.
+
+-¿Cuál es el significado del término “MEAN stack” ?
+El término “MEAN Stack” se define como un conjunto de tecnologías basadas en JavaScript, recopiladas que se utilizan para desarrollar 
+los sitios web complejos y las apps web (progresivas o receptivas). Para simplificar, MEAN se explica como un framework de JavaScript 
+de full-stack, que simplifica y acelera el desarrollo de las apps y web. Siendo uno de los stack tecnológico más popular. 
+
+-¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Las funciones de middleware pueden realizar las siguientes tareas:
+
+Ejecutar cualquier código.
+Realizar cambios en la solicitud y los objetos de respuesta.
+Finalizar el ciclo de solicitud/respuestas.
+Invocar la siguiente función de middleware en la pila.
+
+-¿Qué es una ruta en express?
+Direccionamiento hace referencia a la definición de puntos finales de aplicación (URI) y cómo responden a las solicitudes de cliente.
+
+-¿Qué es un “route handler” en express y para qué se utiliza?
+Se encargan de manejar peticiones HTTP para un servicio específico.
+Por ejemplo, podríamos tener un handler responsable del login de usuarios y otro responsable del logout.
+Estos handlers, una vez hayan hecho procesado la petición, generarán una respuesta que será enviada de nuevo a Node,
+y posteriormente al navegador que realizó la petición HTTP.
+
+-¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+app.get('/', (req, res) => {
+  res.send({
+    hi: 'there',
+  });
+});
+
+'req' es un objeto que representa la petición entrante, que contendrá información sobre quién ha hecho la petición y otros datos procedentes del navegador.
+'res' es un objeto que representa la respuesta que va a ser enviada de vuelta al navegador.
+
+-¿Qué es lo que hace la instrucción res.send?
+Envia inmediatamente cierto JSON de vuelta a quien haya hecho la solicitud.
+
+-¿Cuál es el motivo por el que express es tan popular?
+La razón por la que Express es el marco web más popular es que facilita el desarrollo de aplicaciones web, sitios web y API. 
+También ofrece una colección subyacente de topografías. 
