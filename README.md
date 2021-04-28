@@ -1,2 +1,2 @@
-Practica #11   
-Escribir una aplicación (app.js) para probar el módulo express con lo indicado en el [documento](https://docs.google.com/document/d/1Ar_UbjPD8xIAga_JuP1oYSHeDFddj2OqJnojmBMmXsA/edit).
+Practica #12   
+Escribir una aplicación (app.js) para probar el módulo express y ejs con lo indicado en el [documento](https://docs.google.com/document/d/11WnWhuy92hhCSjjyhLZQfD8KSy8TtiBapa4yrp47-YM/edit).
