@@ -1,0 +1,55 @@
+¿Qué es un middleware?
+
+Middleware es software que se sitúa entre un sistema operativo y las aplicaciones que se ejecutan en él.
+Básicamente, funciona como una capa de traducción oculta para permitir la comunicación y la administración
+de datos en aplicaciones distribuidas. A veces, se le denomina “plumbing” (tuberías), porque conecta dos
+aplicaciones para que se puedan pasar fácilmente datos y bases de datos por una “canalización”. El uso de
+middleware permite a los usuarios hacer solicitudes como el envío de formularios en un explorador web o 
+permitir que un servidor web devuelva páginas web dinámicas en función del perfil de un usuario.
+
+¿Cuál es el significado del término “MEAN stack” ?
+
+El término “MEAN Stack” se define como un conjunto de tecnologías basadas en JavaScript, recopiladas que
+ se utilizan para desarrollar los sitios web complejos y las apps web (progresivas o receptivas)
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+
+Las funciones de middleware pueden realizar las siguientes tareas:
+
+Ejecutar cualquier código.
+Realizar cambios en la solicitud y los objetos de respuesta.
+Finalizar el ciclo de solicitud/respuestas.
+Invocar la siguiente función de middleware en la pila.
+
+
+¿Qué es una ruta en express?
+
+Route middleware en Express es una forma de hacer algo antes de que una petición se procese. Este algo
+podrían ser cosas como comprobar si un usuario se ha autentificado (logueado con su cuenta por ejemplo),
+en definitiva, cualquier cosa que gustemos hacer antes de mandarle información al usuario.
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+
+Un route handler en Express se escribe de la siguiente manera:
+
+app.get('/', (req, res) => {
+  res.send({
+    hi: 'there',
+  });
+});
+
+Se encargan de manejar peticiones HTTP para un servicio específico.
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, ejemplo: app.get()?
+
+req: es un objeto que representa la petición entrante, que contendrá información sobre quién
+ha hecho la petición y otros datos procedentes del navegador.
+res: es un objeto que representa la respuesta que va a ser enviada de vuelta al navegador.
+
+¿Qué es lo que hace la instrucción res.send?
+
+res.send () verificará la estructura de su salida y establecerá la información del encabezado en consecuencia.
+
+¿Cuál es el motivo por el que express es tan popular?
+
+La razón por la que Express es el marco web más popular es que facilita el desarrollo de aplicaciones web, sitios web y API.
