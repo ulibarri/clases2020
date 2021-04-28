@@ -1,4 +1,4 @@
-const express = require('express')
+/*const express = require('express')
 const app = express()
 app.get('/',(req, res)=>{
     res.send('Hello world, this is the root route')
@@ -16,4 +16,4 @@ app.get('/prueba', (req,res)=> { //route handler
 
 app.get('/Xime', (req,res)=> {
     res.send('Hola a todos, desde Ximena:)')
-})
+}) */
