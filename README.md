@@ -6,4 +6,4 @@ Uno de los “template engines” más populares es “EJS”.
 
 
 **Referencias**
-- [Instrucciones Practica 11](https://docs.google.com/document/d/11WnWhuy92hhCSjjyhLZQfD8KSy8TtiBapa4yrp47-YM/edit)
+- [Instrucciones Practica 12](https://docs.google.com/document/d/11WnWhuy92hhCSjjyhLZQfD8KSy8TtiBapa4yrp47-YM/edit)
