@@ -1,0 +1,41 @@
+¿Qué es un middleware?
+El middleware es software que colma lagunas entre otras aplicaciones, herramientas y 
+bases de datos con el fin de prestar servicios unificados a los usuarios. 
+
+¿Cuál es el significado del término “MEAN stack”?
+M(MongoDB), E(Express), A(Angular), N(Node).
+El término “MEAN Stack” se define como un conjunto de tecnologías basadas en JavaScript, 
+recopiladas que se utilizan para desarrollar los sitios web complejos y las apps web 
+(progresivas o receptivas). Para simplificar, MEAN se explica como un framework de 
+JavaScript de full-stack, que simplifica y acelera el desarrollo de las apps y web. 
+
+¿Cuáles son las características/funcionalidades que Express ofrece como middleware?
+Las funciones de middleware pueden realizar las siguientes tareas:
+-Ejecutar cualquier código.
+-Realizar cambios en la solicitud y los objetos de respuesta.
+-Finalizar el ciclo de solicitud/respuestas.
+-Invocar la siguiente función de middleware en la pila.
+
+¿Qué es una ruta en express?
+Una ruta en express hace referencia a cómo responde una aplicación a una solicitud de 
+cliente en un punto final en concreto, que viene a ser un URI (o una zona de acceso) 
+y un método de soliticitud HTTP (GET,POST,PUT,etc).
+
+¿Qué es un “route handler” en express y para qué se utiliza?
+Es la ruta a la que se tiene que acceder desde el navegador para llegar a dicho manejador.
+
+¿Cuáles son los 2 parámetros necesarios para crear una ruta para el método GET con express, 
+ejemplo: app.get()?
+Como primer parámetro del método get() debemos indicar el patrón de la ruta que queremos 
+recibir y como segundo parámetro colocamos la función que se ejecutará cuando se reciba una 
+solicitud con tal patrón.
+La función encargada de resolver la solicitud recibe dos parámetros que nosotros hemos nombrado 
+"req" y "res" (también por convención). No son más que la "request" de la solicitud HTTP y la 
+"response" que enviaremos al cliente.
+
+¿Qué es lo que hace la instrucción res.send?
+Envia un contenido en la respuesta del HTTP.
+
+¿Cuál es el motivo por el que express es tan popular?
+Debido a que sirve para ayudarnos a crear aplicaciones web en menos tiempo ya que nos proporciona 
+funcionalidades como el enrutamiento, opciones para gestionar sesiones y cookies, entre otras.
