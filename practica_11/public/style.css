@@ -1,0 +1,4 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif
+}
+app.use('/assets', express.static(__dirname + '/public')
