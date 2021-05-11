@@ -4,7 +4,6 @@ var port = process.env.PORT || 3000; // setteamos el puerto para que escuche el 
 
 //primera ruta (está funcionando al nivel de la raiz /), Hello world!
 app.use('/assets', express.static(__dirname + '/public'))
-
 app.use('/', function (req, res, next) {
     console.log('Request Url:' + req.url)
     next()
