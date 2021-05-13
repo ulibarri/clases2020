@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Person: <%= ID %></h1>
-    <h1>Query string value: <%= q %></h1>
+    <h1>Person: <%= name %></h1>
+    <h1>Message: <%= message %></h1>
+    <% switch (message.toLowerCase()) {
+        case "hola":
+        for(let i = 0; i < times; i++) { %>
+            <h2><%= message %> <%= name %></h1>
+        <% }
+        break;
+        case "bienvenido":
+        for(let i = 0; i < times; i++) { %>
+            <h2><%= message %> <%= name %></h1>
+        <% }
+        break;
+        case "adios":
+        for(let i = 0; i < times; i++) { %>
+            <h2><%= message %> <%= name %></h1>
+        <% }
+        break;
+        default:
+        for(let i = 0; i < times; i++) { %>
+            <h2>null <%= name %></h1>
+        <% }
+        break;
+    } %>
 </body>
 </html>
