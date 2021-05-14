@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: rgb(236, 130, 219);
+    font-weight: bold;
+}
+p{
+    color: rgb(70, 70, 216);
+}
+h2{
+    font-weight: bold;
+}
