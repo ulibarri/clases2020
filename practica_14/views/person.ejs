@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Person: <%= ID %></h1>
+    <h2>Message: <%= Message %></h2>
+    <% switch (Message) {
+        case 'Hola':
+        for(let i = 0; i < Times; i++) { %>
+            <dt><%= Message %> <%= ID %></dt>
+        <% }
+        break;
+        case 'Bienvenido':
+        for(let i = 0; i < Times; i++) { %>
+            <dt><%= Message %> <%= ID %></dt>
+        <% }
+        break;
+        case 'Adios':
+        for(let i = 0; i < Times; i++) { %>
+            <dt><%= Message %> <%= ID %></dt>
+        <% }
+        break;
+        default:
+        for(let i = 0; i < Times; i++) { %>
+            <dt>null <%= ID %></dt>
+        <% }
+        break;
+    } %>
+</body>
+</html>

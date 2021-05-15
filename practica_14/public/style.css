@@ -1,0 +1,17 @@
+  
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: crimson;
+    font-weight: bold;
+}
+p{
+    color: darkblue;
+}
+h2{
+    font-weight: bold;
+}
+dt{
+    font-weight: lighter;
+}
