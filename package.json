@@ -1,10 +1,9 @@
 {
   "name": "programacionweb",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "practica_12/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,5 +14,14 @@
   "bugs": {
     "url": "https://github.com/ulibarri/clases2020/issues"
   },
-  "homepage": "https://github.com/ulibarri/clases2020#readme"
+  "homepage": "https://github.com/ulibarri/clases2020#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
