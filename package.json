@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node practica_13/server.js"
+    "start": "node practica_14/server.js"
   },
   "keywords": [],
   "author": "",
