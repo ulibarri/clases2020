@@ -16,13 +16,14 @@ app.get('/', function(req, res) {
    res.send(`<html><head> <link href=assets/style.css type=text/css rel =stylesheet />
    <title>Document</title></head>
    <body><h1>Hello world!</h1>
-   <p> Este es un parrafo y su contenido debe ser azul</p></body></html>`) ;
+   </body></html>`) ;
 });
 
 //tercera ruta, recibe un parametro
 app.get('/person/:id', function(req, res){
-    res.render('person', {ID:req.params.id, Qstr: req.query.qrst});
+   res.render('person', {ID:req.params.id, message:req.query.message, times:req.query.times});
 });
+
 
 
 
