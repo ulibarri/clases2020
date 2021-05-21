@@ -1,0 +1,22 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    color: rgb(235, 99, 189);
+    font-weight: bold;
+}
+p{
+    color: rgb(199, 5, 183);
+}
+h2{
+    font-weight: bold;
+}
+dt{
+    font-weight: lighter;
+}
+label{
+    font-weight: bold;
+}
+input.text{
+    font-style: italic;
+}
