@@ -33,4 +33,5 @@ app.get('/student', (req, res)=>{
 app.post('/student', (req,res)=>{
     res.send(`Firs name is: ${req.body.fname} and last name is: ${req.body.lname}`)
 });
+
 app.listen(PORT)
