@@ -1,0 +1,11 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  color: blue;
+}
+
+.form-group {
+  display: flex;
+	flex-direction: column;
+  max-width: 20vw;
+  margin-bottom: 2rem;
+}
