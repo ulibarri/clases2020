@@ -3,6 +3,8 @@ let app = express();
 let PORT = process.env.PORT || 3000;
 app.use("/assets", express.static(path.join(__dirname + "/public")));
 
+app.set("view engine", "ejs");
+
 app.get("/", (req, res) => {
   res.send(
     `<!DOCTYPE html><html lang="en"><head><link href=assets/style.css type=text/css rel=stylesheet /></head>
@@ -13,9 +15,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/person/:id", (req, res) => {
-  res.send(
-    `<!DOCTYPE html><html lang="en"><head><link rel="stylesheet" href="/assets/style.css">`
-  );
+  res.send("person", { id: req.params.id, Qstr: req.query.qstr });
 });
 
 app.listen(PORT);
