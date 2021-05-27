@@ -24,4 +24,12 @@ app.get("/person/:id", (req, res) => {
   });
 });
 
+app.get("/student", (req, res) => {
+  res.render("index");
+});
+
+app.post("/student", (req, res) => {
+  res.send(`First name es: ${req.body.fname}, Last name es: ${req.body.lname}`);
+});
+
 app.listen(PORT);
