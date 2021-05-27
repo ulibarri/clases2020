@@ -3,6 +3,8 @@ let app = express();
 let PORT = process.env.PORT || 3000;
 app.use("/assets", express.static(path.join(__dirname + "/public")));
 
+app.use(express.urlencoded({ extended: false }));
+
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
@@ -16,7 +18,7 @@ app.get("/", (req, res) => {
 
 app.get("/person/:id", (req, res) => {
   res.render("person", {
-    id: req.params.id,
+    name: req.params.id,
     msg: req.query.msg,
     times: req.query.times,
   });
