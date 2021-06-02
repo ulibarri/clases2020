@@ -1,11 +1,9 @@
 require('dotenv').config();
-var express = require('express');
-var app = express();
-var port = process.env.PORT || 3000;
+const express = require('express');
+let app = express();
+let port = process.env.PORT || 3000;
 
 app.use('/assets', express.static(__dirname + '/public'));
-
-app.use(express.urlencoded({extended: false}));
 
 app.set('view engine', 'ejs');
 
@@ -21,9 +19,16 @@ app.get('/student', (req, res) => {
    res.render('index.ejs');
 });
 
-app.post('/student', (req, res) => {
+app.post('/student', express.urlencoded({extended:false}),(req, res) => {
    res.send(`Fisrt Name es: ${req.body.fname}, Last Name es: ${req.body.lname}`);
-   console.log(req.body);
 });
 
-app.listen(port);
+app.post('/personjson', express.json({type:'*/*'}),(req, res) => {
+   console.log('El objeto contiene:', (req.body));
+   console.log('Nombre:', req.body.firstname);
+   console.log('Apellido:', req.body.lastname);
+});
+
+app.listen(port, () => {
+   console.log(`http://localhost:${port} is running`);
+});
