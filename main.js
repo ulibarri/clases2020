@@ -30,10 +30,7 @@ app.listen(port, () => {
                 res.send('No existe ningun objeto con esos parametros');
                 console.log('No existe ningun objeto con esos parametros');
             } else {
-                Citas.deleteOne({
-                    nombre: 'Iván',
-                    ubicacion: 'Centro'
-                }).then(() => {
+                Citas.deleteOne(object).then(() => {
                     res.send(`Eliminado\n${object}`);
                     console.log(`Eliminado\n${object}`);
                 }).catch((err) => console.err(err));
