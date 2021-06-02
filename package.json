@@ -1,11 +1,12 @@
 {
   "name": "clases2020",
   "version": "1.0.0",
-  "description": "Practica #11   \r Escribir una aplicación (app.js) para probar el módulo express con lo indicado en el [documento](https://docs.google.com/document/d/1Ar_UbjPD8xIAga_JuP1oYSHeDFddj2OqJnojmBMmXsA/edit).",
+  "description": "Practica #17   \r Escribir una aplicación (main.js) para usar MongoDB con el módulo mongoose y express con lo indicado en el [documento](https://classroom.google.com/u/1/c/Mjc1NzA4MzQ3Njgy/a/MzUzMjA0OTAwOTg0/details).",
   "main": "main.js",
   "scripts": {
-    "start": "node main.js",
-    "dev": "nodemon main.js",
+    "start": "npm run scss && node main.js",
+    "dev": "npm run scss && nodemon main.js",
+    "scss": "npx sass public/scss/style.scss public/css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,9 @@
   "homepage": "https://github.com/ulibarri/clases2020#readme",
   "dependencies": {
     "dotenv": "^8.6.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^5.12.12"
+    "mongoose": "^5.12.12",
+    "sass": "^1.34.0"
   }
 }
