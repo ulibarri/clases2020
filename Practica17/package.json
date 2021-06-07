@@ -1,0 +1,13 @@
+{ 
+  "name": "Practica17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  
+  "scripts": {
+    "dev":"nodemon src/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
