@@ -3,7 +3,7 @@ import config from "./config";
 
 (async () => {
   try {
-    const db = await mongoose.connect(config.MONGODB_URI, {
+    const db = await mongoose.connect('mongodb+srv://imedrano:123@cluster0.qnjss.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
