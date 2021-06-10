@@ -1,0 +1,26 @@
+{
+  "name": "clases2020",
+  "version": "1.0.0",
+  "description": "Practica #11   \r Escribir una aplicación (app.js) para probar el módulo express con lo indicado en el [documento](https://docs.google.com/document/d/1Ar_UbjPD8xIAga_JuP1oYSHeDFddj2OqJnojmBMmXsA/edit).",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulibarri/clases2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ulibarri/clases2020/issues"
+  },
+  "homepage": "https://github.com/ulibarri/clases2020#readme",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
