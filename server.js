@@ -8,8 +8,9 @@ app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   res.send(
     `<!DOCTYPE html><html lang="en"><head><link href=assets/style.css type=text/css rel=stylesheet /></head>
-      <body><h1>Hello world</h1></body>
+      <body><h1>Hello world</h1>
       <p> Este parrafo debe ser azul </p>
+      </body>
       </html>`
   );
 });
