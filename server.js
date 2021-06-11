@@ -30,4 +30,10 @@ app.post("/student", express.urlencoded({ extended: false }), (req, res) => {
   res.send(`First name es: ${req.body.fname}, Last name es: ${req.body.lname}`);
 });
 
+app.post("/personjson", express.json({ type: "*/*" }), (req, res) => {
+  console.log("El objeto contiene:", req.body);
+  console.log("Nombre:", req.body.firstname);
+  console.log("Apellido:", req.body.lastname);
+});
+
 app.listen(PORT);
