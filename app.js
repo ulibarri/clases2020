@@ -1,22 +1,43 @@
-
-let greet = require('./greet1');
-// let greet2 = require('./greet2').greet;
-let greet2a = require('./greet2');
-const { greeting } = require('./greet3');
-let greet3 = require('./greet3');
+function greet(){
+    console.log('hello');
+}
 greet();
-// greet2();
-greet2a.greet();
 
-greet3.greet();
-greet3.greeting = "Hello from the App"
+function logreeting(fn){
+    fn();
+};
+logreeting(greet);
 
-let greet3b = require('./greet3');
-greet3b.greet();
+let greetme = function() 
+{console.log('hello from the function');
+} 
+greetme();
 
-const Greet4 = require('./greet4'); //constructor
-let myGreet = new (Greet4);
-myGreet.greet();
+///expresar funcionees
+let mifuncion = () => {
 
-const greet5 = require('./greet5');
-greet5.greet()
+}
+
+let saludo = (nombre, tratamiento) => {
+    console.log('hola ' + tratamiento + 'cancer' + nombre)
+}
+saludo('miguel', 'juarez')
+
+
+
+
+let cuadrado1 = numero => {
+    return numero * numero;
+}
+var cuadrado = function(numero) {
+    return numero * numero;
+}
+console.log(cuadrado1(9));
+
+let cuadrado2 = numero => {
+    return numero * numero;
+}
+console.log(cuadrado2(8));
+
+let cuadrado3 = numero => numero * numero;
+console.log(cuadrado3(7));
