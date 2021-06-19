@@ -1,0 +1,21 @@
+let express = require('express');
+let app = express();
+let personsRoute = require('./routes/person');
+let path = require('path');
+
+app.set('view engine', 'ejs');
+app.use(personsRoute);
+app.use('/assets', express.static(__dirname + '/public'));
+app.use((req,res,next) => {
+    res.render('404');
+})
+
+app.set('views', path.join(__dirname, '../views'));
+app.set('view engine', 'ejs');
+
+
+let PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log('ecuchando en el puerto 3000');
+});
