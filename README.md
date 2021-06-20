@@ -1,2 +1,2 @@
-# Practica #18
-Escribir una servidor (server.js) para usar Postman con el módulo express y ejs con lo indicado en el [documento](https://docs.google.com/document/d/18Ppvox_jbqSNlIRAwo5r8oNG0jGxR6D9pSsluGr5h6o/edit).
+# Practica #19
+Escribir un servidor (server.js) para usar Postman junto con el módulo mongoose, express y ejs con lo indicado en el [documento](https://docs.google.com/document/d/18Ppvox_jbqSNlIRAwo5r8oNG0jGxR6D9pSsluGr5h6o/edit) para añadir un documento a la colección persons de la base de datos TEST en MongoDB.
