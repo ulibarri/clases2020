@@ -1,5 +1,5 @@
-let mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://");
+let mongoose = require("mongoose")
+mongoose.connect("mongodb+srv://")
 
 let personSchema = new mongoose.Schema({
   nombre: String,
@@ -8,4 +8,4 @@ let personSchema = new mongoose.Schema({
   tipoSangre: String,
 });
 
-module.exports = mongoose.model("Persons", personSchema);
+module.exports = mongoose.model("Persons", personSchema)
