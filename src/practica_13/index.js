@@ -13,8 +13,8 @@ app.get('/api', (_, res) => {
 });
 app.get('/person/:id', (req, res) => {
   const ID = req.params.id;
-  const qStr = req.query.qstr;
-  res.render('person', { ID, qStr });
+  const { message, times } = req.query;
+  res.render('person', { ID, message, times });
 });
 app.use('/assets', express.static(__dirname + '/public'));
 app.listen(port, () => console.log('Listening on port', port));

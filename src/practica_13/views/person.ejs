@@ -10,7 +10,11 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Person <%= ID %></h1>
-    <h2>Person <%= qStr %></h2>
+    <h1>Person <%=ID%></h1>
+    <% if (['Hola','Bienvenido','Adiós'].includes(message)) { %> 
+      <% for(let i = 0; i < times; i++ ) { %>
+        <h2><%= message %> <%= ID %></h2>
+      <% } %> 
+    <% } %>
   </body>
 </html>
