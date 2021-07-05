@@ -1,1 +1,11 @@
 GET http://localhost:3000/persons
+###
+POST http://localhost:3000/persons/
+Content-Type: application/json
+
+{
+  "nombre": "Ulises",
+  "edad": 20,
+  "nacimiento": "24/10/2020",
+  "tipoSange": "0+"
+}
